@@ -85,12 +85,48 @@ At the top of the AWS Management Console, in the search bar, search for and choo
 <img src="https://imgur.com/6bPxdYQ.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/> 
 <br />
 <br />
-In the navigation pane at the left of the page, under Traffic Mirroring, choose Mirror targets, the Create traffioc mirror target <br/> 
+In the navigation pane at the left of the page, under Traffic Mirroring, choose Mirror targets, the Create traffic mirror target <br/> 
 <img src="https://imgur.com/mhW2J4P.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
 <br />
 <br />
 Create a new target with your Target ENI <br/> 
 <img src="https://imgur.com/NaRNmSM.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Under Traffic Mirroring in the navigation pane, select Mirror filters <br/> 
+<img src="https://imgur.com/lIqk5wv.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Create a filter to capture specific traffic, e.g., ICMP <br/> 
+<img src="https://imgur.com/qcf3bQD.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Add inbound rules as needed <br/> 
+<img src="https://imgur.com/qcf3bQD.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Under Traffic Mirroring, choose Mirror sessions <br/> 
+<img src="https://imgur.com/VtNXyG6.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Create a session, specify source (Server ENI), target (MyTarget), and filter (MyFilter) <br/> 
+<img src="https://imgur.com/eX1quv0.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Use AWS System Manager Session Manager to connect to Client and Target instances <br/> 
+<img src="https://imgur.com/Njw5rnI.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+On the Target instance, start tcpdump to capture traffic <br/> 
+<img src="https://imgur.com/w2seZII.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+On the Client instance, initiate traffic, e.g., with a ping command <br/> 
+<img src="https://imgur.com/aQ50t2R.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Observe captured traffic on the Target instance <br/> 
+<img src="https://imgur.com/hIlzHL3.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/> 
 </p> 
 </p>
 
