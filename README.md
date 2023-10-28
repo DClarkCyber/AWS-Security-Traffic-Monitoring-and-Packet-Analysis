@@ -55,33 +55,34 @@ This lab demonstrates configuring Amazon VPC Traffic Mirroring. In this hands-on
 
 **Conclusion:** You have successfully configured Traffic Mirroring for traffic monitoring.
 
+
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+At the top of the AWS Management Console, in the search bar, search for and choose EC2 <br/>
+<img src="https://imgur.com/R1WWmtX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In the navigation pane at the left of the page, under Instances, choose Instances  <br/>
+<img src="https://imgur.com/rr6UaGg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Choose the link for the Instance ID that is named Server. This opens the instance summary page for the Server EC2 instance <br/>
+<img src="https://imgur.com/CyuJNFZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Scroll down in the Instance summary page. Locate and choose the Networking tab  <br/>
+<img src="https://imgur.com/1rhiQw3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Scroll down and locate the Network Interfaces section. Copy the Interface ID and record it in you preferred text editor as the Server ENI. You need this ID in future tasks. This interface acts as the source of the mirroring traffic  <br/>
+<img src="https://imgur.com/Y5eABR2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Repeat the previous steps to locate, view, and record the Interface ID for the EC2 Instance named Target. Record the ID as the Target ENI. This interface acts as the target of the mirroring traffic  <br/>
+<img src="https://imgur.com/B3ptd0W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+At the top of the AWS Management Console, in the search bar, search for and choose VPC <br/> 
+<img src="https://imgur.com/6bPxdYQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 
 <!--
