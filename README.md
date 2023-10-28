@@ -82,7 +82,16 @@ Repeat the previous steps to locate, view, and record the Interface ID for the E
 <br />
 <br />
 At the top of the AWS Management Console, in the search bar, search for and choose VPC <br/> 
-<img src="https://imgur.com/6bPxdYQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://imgur.com/6bPxdYQ.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/> 
+<br />
+<br />
+In the navigation pane at the left of the page, under Traffic Mirroring, choose Mirror targets, the Create traffioc mirror target <br/> 
+<img src="https://imgur.com/mhW2J4P.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Create a new target with your Target ENI <br/> 
+<img src="https://imgur.com/NaRNmSM.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+</p> 
 </p>
 
 <!--
