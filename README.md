@@ -126,7 +126,27 @@ On the Client instance, initiate traffic, e.g., with a ping command <br/>
 <br />
 <br />
 Observe captured traffic on the Target instance <br/> 
-<img src="https://imgur.com/hIlzHL3.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/> 
+<img src="https://imgur.com/hIlzHL3.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Initiate different traffic from the client to the server <br/> 
+<img src="https://imgur.com/YkkKfRO.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/> 
+<br />
+<br />
+Modify the filter to capture the desired traffic <br/> 
+<img src="https://imgur.com/lU12dHl.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/> 
+<br />
+<br />
+Start tcpdump on the Target instance with the option to write captured packets to a file <br/> 
+<img src="https://imgur.com/9GanQYT.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+Generate traffic on the Client instance <br/> 
+<img src="https://imgur.com/B6iFScu.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/>
+<br />
+<br />
+View the captured traffic file using tcpdump or tools like Wireshark <br/> 
+<img src="https://imgur.com/7YLLrpY.png" height="80%" width="80%" alt="AWS Security Traffic Monitoring and Packet Analysis"/> 
 </p> 
 </p>
 
